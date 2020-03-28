@@ -1,6 +1,9 @@
 .c-footer {
   background-color: $theme;
   position: relative;
+  &, * {
+    color: $theme-invert;
+  }
 
   &-scroll-back {
     position: absolute;
