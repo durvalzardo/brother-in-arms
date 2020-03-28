@@ -53,5 +53,10 @@ p {
 }
 
 a {
+  color: $theme;
   transition: all .2s ease-out;
+
+  &:hover, &:active, &:focus {
+    color: darken($theme, 10%);
+  }
 }
