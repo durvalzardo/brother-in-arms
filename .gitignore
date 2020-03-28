@@ -1,0 +1,7 @@
+/vendor
+/node_modules
+/public/css
+/public/img
+/public/js
+.env
+.DS_store

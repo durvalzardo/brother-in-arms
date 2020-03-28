@@ -1,0 +1,50 @@
+.btn {
+
+  &-apoia-se {
+    border: 2px solid #eb4a3b;
+    border-radius: 57px;
+    padding: 13px 22px;
+    background-color: #ffffff;
+
+    &:hover, &:active, &:focus {
+      background-color: rgba($theme, 0.25);
+    }
+  }
+
+  background-color: $theme;
+  border: 2px solid $theme;
+  border-radius: 30px;
+  color: $theme-invert;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 24px;
+  padding: 25px 27px;
+
+  &:hover, &:active, &:focus {
+    background-color: rgba($theme, 0.75);
+    color: $theme-invert;
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 0.3rem rgba($theme, .4);
+  }
+
+  &--invert, &--invert2 {
+    background-color: $theme-invert;
+    color: $theme;
+
+    &:hover, &:active, &:focus {
+      background-color: rgba($theme, 0.25);
+      color: $theme;
+    }
+  }
+
+  &--invert2 {
+    color: $title-color;
+
+    &:hover, &:active, &:focus {
+      background-color: $theme;
+      color: $theme-invert;
+    }
+  }
+}

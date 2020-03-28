@@ -1,0 +1,32 @@
+.c-header {
+  background-color: #f8fafb;
+
+  img {
+    max-width: 100%;
+  }
+
+  &-texts {
+    max-width: 425px;
+  }
+
+  @media screen and (max-width: $screen-sm) {
+    &-buttons {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: $screen-lg) {
+    &-texts {
+      max-width: none;
+      text-align: center;
+    }
+
+    &-content {
+      align-items: center !important;
+    }
+
+    &-image {
+      text-align: center;
+    }
+  }
+}

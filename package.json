@@ -1,0 +1,43 @@
+{
+  "name": "brother-in-arms",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "gulp serve",
+    "postinstall": "gulp build"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "autoprefixer": "^6.7.7",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babelify": "^7.3.0",
+    "browser-sync": "^2.18.5",
+    "browserify": "^13.3.0",
+    "cssnano": "^3.7.3",
+    "devbridge-autocomplete": "^1.2.24",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.3.0",
+    "gulp-sass": "^3.0.0",
+    "gulp-sourcemaps": "^1.9.1",
+    "gulp-uglify": "^2.0.0",
+    "gulp-uglifycss": "^1.0.6",
+    "jquery": "^3.2.1",
+    "jquery-mask-plugin": "^1.14.0",
+    "normalize.css": "^5.0.0",
+    "postcss-import": "^9.1.0",
+    "slick-carousel": "^1.8.1",
+    "tether": "^1.1.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}
