@@ -42,7 +42,15 @@ $(document).ready(function () {
   });
 
   $('#btn-doacao').on('click', function(e){
+    $('#modal-botoes').fadeIn();
+
     fbq('trackCustom', 'Clique Apoiase Doador');
     gtag('event', 'Clique Apoiase Doador');
   });
+
+  $('.js-modal-close').on('click', function() {
+    $('#modal-botoes').fadeOut();
+  });
+
+
 });
