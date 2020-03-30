@@ -1,0 +1,14 @@
+# Application
+wp-content/languages/plugins/*
+wp-content/plugins/*
+wp-content/upgrade
+wp-content/uploads/*
+!wp-content/uploads/.gitkeep
+
+# Versioned Plugins
+!wp-content/plugins/advanced-custom-fields-pro/
+
+# Composer
+vendor/*
+!vendor/.gitkeep
+composer.lock

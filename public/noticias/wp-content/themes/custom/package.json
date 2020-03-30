@@ -1,0 +1,57 @@
+{
+  "name": "frontend-boilerplate",
+  "version": "1.0.0",
+  "description": "Frontend Boilerplate",
+  "main": "index.html",
+  "scripts": {
+    "start": "gulp serve",
+    "postinstall": "gulp build"
+  },
+  "keywords": [
+    "gulp",
+    "dz",
+    "fontend"
+  ],
+  "author": "Geancarlo Canova",
+  "license": "UNLICENSED",
+  "devDependencies": {},
+  "dependencies": {
+    "autoprefixer": "^6.7.7",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babelify": "^7.3.0",
+    "browser-sync": "^2.18.5",
+    "browserify": "^13.3.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-changed": "^3.2.0",
+    "gulp-clone": "^2.0.1",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-rev": "^7.1.2",
+    "gulp-sass": "^3.0.0",
+    "gulp-sourcemaps": "^1.9.1",
+    "gulp-uglify": "^2.0.0",
+    "gulp-uglifycss": "^1.0.6",
+    "gulp-webp": "^3.0.0",
+    "jquery": "^3.2.1",
+    "jquery-mask-plugin": "^1.14.0",
+    "normalize.css": "^5.0.0",
+    "postcss-import": "^9.1.0",
+    "rupture-sass": "^0.3.0",
+    "slick-carousel": "^1.8.1",
+    "streamqueue": "^1.1.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "clndr": "^1.5.1",
+    "moment": "^2.24.0",
+    "underscore": "^1.9.2"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}
