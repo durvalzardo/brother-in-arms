@@ -1,0 +1,13 @@
+{
+    "name": "brother-in-arms/noticias",
+    "description": "Brothers In Arms Notícias",
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org"
+        }
+    ],
+    "require": {
+        "wpackagist-plugin/wordpress-seo":">=13.1"
+    }
+}
