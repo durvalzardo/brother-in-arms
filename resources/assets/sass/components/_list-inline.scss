@@ -68,4 +68,26 @@
       }
     }
   }
+
+  &--brands {
+    justify-content: center;
+
+    li {
+      @media screen and (min-width: $screen-lg) {
+        width: 31%;
+        margin: 20px 1.1%;
+      }
+
+      &.item-sm {
+        @media screen and (min-width: $screen-lg) {
+          width: 20%;
+        }
+      }
+
+    }
+
+
+
+  }
+
 }
