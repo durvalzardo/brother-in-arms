@@ -1,4 +1,4 @@
-.c-modal-botoes {
+.c-modal {
 	display: none;
 	width: 100vw;
 	height: 100vh;
@@ -7,7 +7,7 @@
 	right: 0;
 	bottom: 0;
 	left: 0;
-	z-index: 20;
+	z-index: 30;
 	background-color: rgba(0, 0, 0, .8);
 
 	&__box {
@@ -26,6 +26,16 @@
 			max-width: 700px;
 			max-height: 400px;
 		}
+
+		&--large {
+			padding: 40px 0 0;
+			@media screen and (min-width: $screen-lg) {
+				padding: 50px;
+				max-width: 90%;
+				max-height: 90%;
+			}
+		}
+
 	}
 	
 
@@ -35,6 +45,10 @@
 		align-items: center;
 		justify-content: center;
 		height: 100%;
+
+		&--align-normal {
+			align-items: normal;
+		}
 	}
 
 	&__item {
@@ -48,5 +62,23 @@
 		font-size: 25px;
 		color: #eb4a3b;
 		cursor: pointer;
+	}
+
+	&__img {
+		max-width: 100%;
+		margin: 0 auto;
+		display: block;
+
+		@media screen and (max-width: $screen-lg) {
+			max-width: inherit;
+			height: 86vh;
+		}
+
+	}
+
+	&__img-wrapper {
+		@media screen and (max-width: $screen-lg) {
+			overflow-x: scroll;
+		}
 	}
 }

@@ -1,0 +1,41 @@
+.c-nav {
+	display: flex;
+	flex-direction: row;
+	width: 50%;
+	margin-left: auto;
+	justify-content: center;
+	align-items: center;
+
+	@media screen and(max-width: $screen-xl) {
+		position: fixed;
+		top: 0;
+		left: -100vw;
+		width: 100vw;
+		height: 100vh;
+		background-color: #f8fafb;
+		z-index: 20;
+		flex-direction: column;
+		transition: all .2s ease-in-out;
+
+		.menu-opened & {
+			left: 0;
+		}
+	}
+	
+	&__item {
+		margin: 0 5%;
+		white-space: nowrap;
+		color: #000;
+		font-weight: 600;
+		font-size: 14px;
+
+		@media screen and(max-width: $screen-xl) {
+			font-size: 18px;
+			margin: 5% 0;
+		}
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}

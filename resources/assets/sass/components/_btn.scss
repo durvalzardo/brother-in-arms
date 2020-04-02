@@ -5,6 +5,7 @@
     border-radius: 57px;
     padding: 13px 22px;
     background-color: #ffffff;
+    color: #d61515;
 
     &:hover, &:active, &:focus {
       background-color: rgba($theme, 0.25);
@@ -27,6 +28,11 @@
 
   &:focus {
     box-shadow: 0 0 0 0.3rem rgba($theme, .4);
+  }
+
+  &--transparent {
+    background-color: transparent;
+    color: $title-color;
   }
 
   &--invert, &--invert2 {
